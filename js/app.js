@@ -52,7 +52,7 @@ const switchTab = (id) => {
 
 const createPost = (post) => {
     const image = post.image;
-    // const userImage = post.userImage;
+    const userImage = post.userImage;
     const div = document.createElement( "article" );
     div.classList.add( "post" );
     div.innerHTML = `
