@@ -55,7 +55,6 @@ const createPost = (post) => {
     const userImage = post.userImage;
     const commentsUser = post.comments;
     const div = document.createElement( "article" );
-    console.log(commentsUser);
     div.classList.add( "post" );
     div.innerHTML = `
               <div class="post__header">
